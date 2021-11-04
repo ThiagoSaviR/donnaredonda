@@ -15,8 +15,14 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
+
     <title>Dona Redonda pizzas</title>
   </head>
   <body>
@@ -26,25 +32,28 @@
           >Donna <span class="cor2">Redonda</span>
           <span class="cor3">Pizzas</span></a
         >
+
         <!-- MENU -->
         <div class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
-            <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#services">Diferenciais</a></li>
+            <li><a class="title" href="#testimonials">Avaliações</a></li>
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
         <!-- /MENU -->
-        <div class="toggle icon-Group-1"></div>
+
+        <div class="toggle icon-menu"></div>
         <!--menuOpen-->
-        <div class="toggle icon-Vector-1"></div>
+        <div class="toggle icon-menufechar"></div>
         <!--menuClose-->
       </nav>
     </header>
-        <!--CONTENT-->
-    <main> 
+    <!--CONTENT-->
+    <main>
+      <!--HOME-->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -65,6 +74,7 @@
 
       <div class="divider-1"></div>
 
+      <!--ABOUT-->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -101,15 +111,20 @@
 
       <div class="divider-2"></div>
 
-      <section class="section" id="services">
+      <!-- DIFFERENTIALS -->
+      <section class="section" id="differentials">
         <div class="container">
           <header>
-            <h2 class="title"> Serviços</h2>
-            <p>São mais de 15 anos fazendo pizza, a <strong>Donna Redonda</strong> nesses anos, conquistou o coração dos Paulistanos com a qualidades e sabor que só encontramos aqui</p>
+            <h2 class="title">Deferenciais</h2>
+            <p>
+              São mais de 15 anos fazendo pizza. A
+              <strong>Donna Redonda</strong> nesses anos, conquistou o coração
+              dos Paulistanos com a qualidades e sabor que só encontramos aqui.
+            </p>
           </header>
           <div class="cards grid">
             <div class="card">
-              <i class="icon-Group"></i>
+              <i class="icon-fermento"></i>
               <h3 class="title">Fermentação</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -119,19 +134,133 @@
               </p>
             </div>
             <div class="card">
-              <i class="icon-Vector"></i>
+              <i class="icon-forno"></i>
               <h3 class="title">Forno à lenha</h3>
-              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ea ex praesentium facilis assumenda eos doloribus rerum error illum, animi molestias cum atque quam quisquam maiores hic ipsam magni mollitia!</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+                ea ex praesentium facilis assumenda eos doloribus rerum error
+                illum, animi molestias cum atque quam quisquam maiores hic ipsam
+                magni mollitia!
+              </p>
             </div>
             <div class="card">
-              <i class="icon-ingredients"></i>
+              <i class="icon-ingredientes"></i>
               <h3 class="title">Ingredientes</h3>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas praesentium voluptates ad vero delectus distinctio, optio, nam ratione placeat similique, quaerat consectetur beatae sit eos assumenda magnam porro et cupiditate.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                praesentium voluptates ad vero delectus distinctio, optio, nam
+                ratione placeat similique, quaerat consectetur beatae sit eos
+                assumenda magnam porro et cupiditate.
+              </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- /DEFFERENTIALS -->
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos dos nossos clientes</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    <!--ABRE ASPAS-->
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Soluta doloribus excepturi in eius qui, commodi, molestiae
+                    nobis quaerat numquam, amet beatae at est tempora laborum
+                    ipsam odio fuga voluptatem quam!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/46.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- /testimonial -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    <!--ABRE ASPAS-->
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Soluta doloribus excepturi in eius qui, commodi, molestiae
+                    nobis quaerat numquam, amet beatae at est tempora laborum
+                    ipsam odio fuga voluptatem quam!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/26.jpg"
+                      alt="Foto de Fabiana Santos"
+                    />
+                    Fabiana Santos
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- /testimonial -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    <!--ABRE ASPAS-->
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Soluta doloribus excepturi in eius qui, commodi, molestiae
+                    nobis quaerat numquam, amet beatae at est tempora laborum
+                    ipsam odio fuga voluptatem quam!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/15.jpg"
+                      alt="Foto de Patricia Almeida"
+                    />
+                    Patricia Almeida
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS-->
+      <section class="section" id="contact">
+        <div class="container grid">
+         
+         
+          <div class="text">
+            <h2 class="title">Peça sua Pizza!</h2>
+            <p>Entre em contado conosco, queremos tirar suas dúvidas e servir a melhor pizza da cidade. </p>
+            <a href="#" ><i class="icon-whatsapp">Enter em contato</i></a>
+          </div>
+
+          <div class="link">
+            <ul>
+              <li><i class="icon-phone"></i> 11 98765-4321</li>
+              <li><i class="icon-map-pin"></i> Rua: Rui Barbosa, 4564</li>
+              <li><i class="icon-mail"></i> contato@donnaredonda.com.br</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </section>
+
     </main>
+    <!--SWIPER-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--MAIN.JS-->
     <script src="main.js"></script>
   </body>
 </html>

@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?mn4pfu');
-  src: url('fonts/icomoon.eot?mn4pfu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mn4pfu') format('truetype'),
-    url('fonts/icomoon.woff?mn4pfu') format('woff'),
-    url('fonts/icomoon.svg?mn4pfu#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?roemuu');
+  src:  url('fonts/icomoon.eot?roemuu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?roemuu') format('truetype'),
+    url('fonts/icomoon.woff?roemuu') format('woff'),
+    url('fonts/icomoon.svg?roemuu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -26,43 +25,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-phone:before {
-  content: '\e900';
-}
-.icon-ingredients:before {
-  content: '\e901';
-}
-.icon-facebook:before {
-  content: '\e902';
-}
-.icon-Group:before {
-  /*fermento*/
-  content: '\e903';
-}
-.icon-Group-1:before {
-  /*abrir menu*/
-  content: '\e904';
-}
-.icon-instagram:before {
-  content: '\e905';
-}
-.icon-mail:before {
-  content: '\e906';
-}
-.icon-map-pin:before {
-  content: '\e907';
-}
-.icon-Vector:before {
-  /*forno*/
-  content: '\e908';
-}
-.icon-Vector-1:before {
-  /*X*/
-  content: '\e909';
-}
 .icon-whatsapp:before {
-  content: '\e90a';
+  content: "\e900";
 }
 .icon-youtube:before {
-  content: '\e90b';
+  content: "\e901";
+}
+.icon-mail:before {
+  content: "\e902";
+}
+.icon-map-pin:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-phone:before {
+  content: "\e906";
+}
+.icon-menu:before {
+  content: "\e907";
+}
+.icon-menufechar:before {
+  content: "\e908";
+}
+.icon-fermento:before {
+  content: "\e909";
+}
+.icon-ingredientes:before {
+  content: "\e90a";
+}
+.icon-forno:before {
+  content: "\e90b";
 }
